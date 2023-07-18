@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "test-redis",
+            "type": "python",
+            "request": "launch",
+            "module": "src",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "internalConsole",
+        },
+    ]
+  }
+  

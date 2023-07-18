@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test-redis"
+version = "0.1.0"
+description = ""
+authors = ["ProtKen <protcenko.kseniya@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_redis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+redis = "^4.6.0"
+flask = "^2.3.2"
+pydentic = "^0.0.1.dev3"
+pydantic = "^2.0.3"
+sqlalchemy = "^2.0.19"
+flask-sqlalchemy = "^3.0.5"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
